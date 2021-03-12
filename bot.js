@@ -17,8 +17,12 @@ client.on("message", async message => {
     const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/g);
     const comand = args.shift().toLowerCase();
 
-    if (comand === 'qtdbugs') {
-        qtdbugs(message)
+    switch (comand) {
+        case 'qtdbugs':
+            qtdbugs(message)
+            break;
+        default:
+            message.channel.send("Comando desconhecido :(")
     }
 
 });
