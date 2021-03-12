@@ -1,0 +1,5 @@
+# .env
+PREFIX=!
+TOKEN=*********
+EMAIL=**************
+TOKEN_JIRA=*************
