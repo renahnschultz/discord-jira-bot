@@ -1,0 +1,25 @@
+{
+  "name": "discord-jira-query-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to do queries on jira.",
+  "main": "bot.js",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "iconv-lite": "^0.6.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Renahn Schultz",
+  "license": "ISC",
+  "type": "module"
+}
